@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mihai</title>
+  <link rel="icon" type="image/png" href="image.PNG">
+<style>
+body {
+  background-color: black;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+    color: white;
+    font-family: verdana;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px; 
+    width: 150px; 
+    height: 75px;
+    background-color: white; 
+    color: black;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+}
+</style>
+</head>
+<body>
+<head>
+</head>
+<body>
+<h1>Mihai Ivan</h1>
+<img src="image.PNG" width="200" height="250">
+<p>Hello,</p>
+<p>My name is Mihai Ivan, I am a 17 year old A Level student, that is passionate about going into an IT based role.</p>
+<button type="button" onclick="showParagraphsAndHideButton(this)" style="margin-bottom: 20px;">A Levels</button>
+
+<p class="hidden" style="display:none;">This interest for IT-grade work is reflected in my A Level options with me choosing:</p>
+<p class="hidden" style="display:none;">• Computer Science (OCR Level 3)</p>
+<p class="hidden" style="display:none;">• Mathematics (AQA Level 3)</p>
+<p class="hidden" style="display:none;">• Geography (Edexcel Level 3)</p>
+<br>
+
+<script>
+function showParagraphsAndHideButton(button) {
+    const paragraphs = document.querySelectorAll('.hidden');
+    paragraphs.forEach(p => p.style.display = 'block');
+    button.style.display = 'none';
+}
+</script>
+
+<p class="hidden1" style="display:none;">This interest can also be seen through my GCSE options and their grades:</p>
+<p class="hidden1" style="display:none;">• Computer Science: Grade 6</p>
+<p class="hidden1" style="display:none;">• IT: Grade LD2*</p>
+<p class="hidden1" style="display:none;">• Maths: Grade 8</p>
+<p class="hidden1" style="display:none;">• Geography: Grade 7</p>
+<p class="hidden1" style="display:none;">• Combined Science: Grade 8-7</p>
+<p class="hidden1" style="display:none;">• English Literature: Grade 5</p>
+<p class="hidden1" style="display:none;">• English Language: Grade 5</p>
+<p class="hidden1" style="display:none;">• French: Grade 5</p>
+
+<script>
+function showParagraphsAndHideButton1(button) {
+    const paragraphs = document.querySelectorAll('.hidden1');
+    paragraphs.forEach(p => p.style.display = 'block');
+    button.style.display = 'none';
+}
+</script>
+<br>
+<button type="button" onclick="showParagraphsAndHideButton1(this)">GCSE Options</button>
+</body>
+</html>
