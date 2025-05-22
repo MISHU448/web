@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+  text-align: center;
+  background-image: url('bg.PNG');
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: verdana;
+}
+
+p {
+    color: white;
+    font-family: verdana;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.button1 {
+    font-size: 20px;
+    padding: 10px 20px; 
+    width: 150px; 
+    height: 75px;
+    background-color: white; 
+    color: black;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+.button2 {
+    font-size: 20px;
+    padding: 10px 20px; 
+    width: 150px; 
+    height: 75px;
+    background-color: #0966c8; 
+    color: black;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.button3 {
+    font-size: 20px;
+    padding: 10px 20px; 
+    width: 150px; 
+    height: 75px;
+    background-color: #C13584; 
+    color: black;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+}
