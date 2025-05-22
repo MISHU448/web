@@ -7,12 +7,12 @@ body {
 h1 {
   color: white;
   text-align: center;
-  font-family: verdana;
+  font-family: 'OCR A Extended', sans-serif;
 }
 
 p {
     color: white;
-    font-family: verdana;
+    font-family: 'OCR A Extended', sans-serif;
     font-size: 20px;
     margin-bottom: 10px;
 }
