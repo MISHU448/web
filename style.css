@@ -58,3 +58,15 @@ img {
     border-radius: 5px; 
     cursor: pointer;
 }
+
+.button3 {
+    font-size: 20px;
+    padding: 10px 20px; 
+    width: 150px; 
+    height: 75px;
+    background-color: #30853b; 
+    color: black;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+}
