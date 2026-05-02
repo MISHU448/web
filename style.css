@@ -1,7 +1,7 @@
 body {
   background-color: black;
   text-align: center;
-  background-image: url('bg.PNG');
+  background-image: url('Assets/bg.PNG');
   max-width: 800px;
   margin: auto;
 }
