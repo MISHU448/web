@@ -1,7 +1,10 @@
 body {
   background-color: black;
   text-align: center;
-  background-image: url('Assets/bg.png');
+  background-image: url('Assets/bg.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
   max-width: 800px;
   margin: auto;
 }
